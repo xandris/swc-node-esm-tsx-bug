@@ -1,0 +1,17 @@
+{
+  "name": "test-swc-register",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "export SWCRC=true NODE_OPTIONS=--import=@swc-node/register/esm-register; node b.ts; node c.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@swc-node/register": "1.10.x",
+    "typescript": "^5.5.3"
+  }
+}
